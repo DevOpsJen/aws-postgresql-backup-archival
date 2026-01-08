@@ -46,3 +46,10 @@ Refer to the architecture diagram in the architecture folder.
 - Implemented cost-optimized long-term retention
 - Applied security, compliance, and operational best practices
 
+- ## Architect-Level Capabilities
+- Designed a centralized, multi-account backup platform
+- Defined governance, security, and cost controls
+- Implemented cross-region and cross-account DR strategies
+- Created a roadmap for organization-wide adoption
+
+
