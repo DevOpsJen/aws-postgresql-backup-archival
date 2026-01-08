@@ -38,3 +38,10 @@ Refer to the architecture diagram in the architecture folder.
 - 99% reduction in data loss risk
 - Fully automated backups
 - Cost-optimized long-term storage
+
+## Senior-Level Highlights
+- Designed multi-layer backup and archival strategy
+- Defined RTO/RPO and disaster recovery plans
+- Implemented cost-optimized long-term retention
+- Applied security, compliance, and operational best practices
+
