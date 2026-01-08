@@ -1,0 +1,43 @@
+<svg width="1100" height="650" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill:#f8f9fa; stroke:#333; stroke-width:1.5 }
+    .title { font-size:16px; font-weight:bold }
+    .text { font-size:13px }
+    .arrow { stroke:#333; stroke-width:2; marker-end:url(#arrowhead) }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+      refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Production Account -->
+  <rect x="50" y="50" width="300" height="120" class="box"/>
+  <text x="65" y="80" class="title">Production AWS Account</text>
+  <text x="65" y="110" class="text">Amazon RDS (PostgreSQL)</text>
+  <text x="65" y="130" class="text">Automated & Manual Backups</text>
+
+  <!-- Backup Script -->
+  <rect x="430" y="80" width="240" height="90" class="box"/>
+  <text x="445" y="115" class="title">Backup Automation</text>
+  <text x="445" y="140" class="text">pg_dump / Scheduled Jobs</text>
+
+  <!-- Central Backup Account -->
+  <rect x="780" y="50" width="300" height="150" class="box"/>
+  <text x="795" y="80" class="title">Central Backup AWS Account</text>
+  <text x="795" y="110" class="text">Amazon S3 (Encrypted, Versioned)</text>
+  <text x="795" y="130" class="text">Lifecycle → Glacier Deep Archive</text>
+
+  <!-- DR Region -->
+  <rect x="780" y="260" width="300" height="120" class="box"/>
+  <text x="795" y="295" class="title">Secondary Region (DR)</text>
+  <text x="795" y="325" class="text">Cross‑Region Replication</text>
+
+  <!-- Arrows -->
+  <line x1="350" y1="110" x2="430" y2="125" class="arrow"/>
+  <line x1="670" y1="125" x2="780" y2="125" class="arrow"/>
+  <line x1="930" y1="200" x2="930" y2="260" class="arrow"/>
+
+</svg>
