@@ -1,7 +1,8 @@
 # AWS PostgreSQL Backup & Archival Strategy
 
 ## Project Overview
-This project demonstrates a production-grade backup and archival solution for PostgreSQL databases hosted on Amazon RDS. The goal is to prevent data loss, enable point-in-time recovery, and store historical data securely at low cost.
+This project focuses on backup architecture rather than just tooling. I designed a multi-layer strategy combining RDS automated backups, snapshots, and logical backups for portability. I defined RTO and RPO targets, documented failure scenarios, implemented lifecycle-based cost optimization, and ensured security and compliance readiness. Automation was added to demonstrate operational maturity.
+
 
 ## Problem Statement
 After migrating PostgreSQL data to Amazon RDS, there was no backup or disaster recovery strategy in place. This posed a high risk of data loss and compliance failure.
