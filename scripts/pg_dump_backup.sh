@@ -1,4 +1,5 @@
-#!/bin/bash
-# PostgreSQL logical backup script
+RDS_ENDPOINT="<YOUR_RDS_ENDPOINT>"
+DB_USER="<YOUR_DB_USERNAME>"
+DB_NAME="<YOUR_DB_NAME>"
 
-pg_dump -Fc -h <RDS-ENDPOINT> -U <DB-USER> <DB-NAME> > backup.dump
+pg_dump -Fc -h "$RDS_ENDPOINT" -U "$DB_USER" "$DB_NAME" > backup.dump
