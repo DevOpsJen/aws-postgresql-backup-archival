@@ -7,6 +7,10 @@ This project focuses on backup architecture rather than just tooling. I designed
 ## Problem Statement
 After migrating PostgreSQL data to Amazon RDS, there was no backup or disaster recovery strategy in place. This posed a high risk of data loss and compliance failure.
 
+## Architecture Diagram
+![Architecture](architecture/architecture-diagram.png)
+
+
 ## Solution Overview
 The solution uses:
 - RDS automated backups for short-term recovery
