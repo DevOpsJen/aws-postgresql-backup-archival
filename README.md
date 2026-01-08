@@ -1,7 +1,3 @@
-# aws-postgresql-backup-archival
-End-to-end PostgreSQL backup and archival strategy on AWS
-
-
 # AWS PostgreSQL Backup & Archival Strategy
 
 ## Project Overview
